@@ -1,0 +1,29 @@
+{
+  "name": "synchrony-site",
+  "version": "1.0.0",
+  "description": "Site for deobfuscate.relative.im",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "watch": "node scripts/build.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/relative/synchrony-site.git"
+  },
+  "author": "relative <hi@relative.im>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/relative/synchrony-site/issues"
+  },
+  "homepage": "https://deobfuscate.relative.im",
+  "devDependencies": {
+    "@chialab/esbuild-plugin-html": "^0.14.19",
+    "esbuild": "0.14.21",
+    "esbuild-sass-plugin": "2.2.3"
+  },
+  "dependencies": {
+    "monaco-editor": "0.32.1"
+  }
+}

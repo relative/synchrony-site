@@ -19,7 +19,7 @@
   },
   "homepage": "https://deobfuscate.relative.im",
   "devDependencies": {
-    "@chialab/esbuild-plugin-html": "^0.14.19",
+    "@chialab/esbuild-plugin-html": "0.14.19",
     "esbuild": "0.14.21",
     "esbuild-sass-plugin": "2.2.3"
   },

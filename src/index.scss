@@ -58,7 +58,7 @@ a:visited {
   }
 }
 
-.main {
+.main-ctr {
   display: flex;
   flex-direction: row;
   margin: auto 23px;
@@ -75,7 +75,7 @@ a:visited {
 }
 
 @media (max-width: 1024px) {
-  .main {
+  .main-ctr {
     flex-direction: column;
     .col {
       height: unset;

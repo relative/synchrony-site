@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@chialab/esbuild-plugin-html': 0.14.19
-  deobfuscator: 2.1.1
+  deobfuscator: 2.1.2
   esbuild: 0.14.21
   esbuild-sass-plugin: 2.2.3
   monaco-editor: 0.32.1
 
 dependencies:
-  deobfuscator: 2.1.1
+  deobfuscator: 2.1.2
   monaco-editor: 0.32.1
 
 devDependencies:
@@ -134,8 +134,8 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: false
 
-  /deobfuscator/2.1.1:
-    resolution: {integrity: sha512-VoEjeK+SLyTN9njjceN6WVTNy1YxvHd5fMPEv/GuVnLGCvRpf4rGxPYW6qaEFKaXxZa7QLQtAucBF21ZFgon9Q==}
+  /deobfuscator/2.1.2:
+    resolution: {integrity: sha512-85rSoBMf4DtCzPZ7Vg/OgUaK2Y3o+vcECkFbASWibdwyB31XIIcdktd0R5hV3lNUnbr0b3QtGH9e0/bXZdMDeQ==}
     hasBin: true
     dependencies:
       acorn: 8.7.0

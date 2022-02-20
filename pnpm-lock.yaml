@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@chialab/esbuild-plugin-html': 0.14.19
-  deobfuscator: 2.1.0
+  deobfuscator: 2.1.1
   esbuild: 0.14.21
   esbuild-sass-plugin: 2.2.3
   monaco-editor: 0.32.1
 
 dependencies:
-  deobfuscator: 2.1.0
+  deobfuscator: 2.1.1
   monaco-editor: 0.32.1
 
 devDependencies:
@@ -134,8 +134,8 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: false
 
-  /deobfuscator/2.1.0:
-    resolution: {integrity: sha512-ZhYHtoRfRGBDK0xQcf0107+P/tL2sIoJfxTEM+ht552pW7ywX10T3cz4E5ZkivRIVxRZ7K5Bqe1oXvjKvlIkWA==}
+  /deobfuscator/2.1.1:
+    resolution: {integrity: sha512-VoEjeK+SLyTN9njjceN6WVTNy1YxvHd5fMPEv/GuVnLGCvRpf4rGxPYW6qaEFKaXxZa7QLQtAucBF21ZFgon9Q==}
     hasBin: true
     dependencies:
       acorn: 8.7.0
@@ -294,7 +294,7 @@ packages:
     resolution: {integrity: sha512-9Ih8ZDFu7bUoxtFzZNviWFGm6VnrwZytVw+jybfZgjRLt4NEWmr3NapVKVZhh3qgIPsoTm9B+i8wJ0QsGMbc7Q==}
     dependencies:
       esbuild: 0.14.21
-      sass: 1.49.7
+      sass: 1.49.8
     dev: true
 
   /esbuild-sunos-64/0.14.21:
@@ -515,8 +515,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /sass/1.49.7:
-    resolution: {integrity: sha512-13dml55EMIR2rS4d/RDHHP0sXMY3+30e1TKsyXaSz3iLWVoDWEoboY8WzJd5JMnxrRHffKO3wq2mpJ0jxRJiEQ==}
+  /sass/1.49.8:
+    resolution: {integrity: sha512-NoGOjvDDOU9og9oAxhRnap71QaTjjlzrvLnKecUJ3GxhaQBrV6e7gPuSPF28u1OcVAArVojPAe4ZhOXwwC4tGw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:

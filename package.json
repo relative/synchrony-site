@@ -24,7 +24,7 @@
     "esbuild-sass-plugin": "2.2.3"
   },
   "dependencies": {
-    "deobfuscator": "2.1.5",
+    "deobfuscator": "2.2.0",
     "monaco-editor": "0.32.1"
   }
 }

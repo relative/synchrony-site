@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@chialab/esbuild-plugin-html': 0.14.19
-  deobfuscator: 2.1.5
+  deobfuscator: 2.2.0
   esbuild: 0.14.21
   esbuild-sass-plugin: 2.2.3
   monaco-editor: 0.32.1
 
 dependencies:
-  deobfuscator: 2.1.5
+  deobfuscator: 2.2.0
   monaco-editor: 0.32.1
 
 devDependencies:
@@ -134,13 +134,14 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: false
 
-  /deobfuscator/2.1.5:
-    resolution: {integrity: sha512-KxQBRFuomfmUyB+8XAPLnifmKy+Aq1l2Iu1diQ+QjgQrPKaoGUg254tyNKMmRC8w3ii7qCQ+IJGKGfI47HF9ow==}
+  /deobfuscator/2.2.0:
+    resolution: {integrity: sha512-mONyj0FsCl3XJoHXToI5aibfClP1Sv5hS5Xnt4Gkn5T+EZWlkds5Co9zuxFjXFnmc/T33Pn2o+YqOTGSCHFPdw==}
     hasBin: true
     dependencies:
       acorn: 8.7.0
       acorn-walk: 8.2.0
       escodegen: 2.0.0
+      eslint-scope: 7.1.1
       prettier: 2.5.1
       yargs: 17.3.1
     dev: false
@@ -378,10 +379,25 @@ packages:
       source-map: 0.6.1
     dev: false
 
+  /eslint-scope/7.1.1:
+    resolution: {integrity: sha512-QKQM/UXpIiHcLqJ5AOyIW7XZmzjkzQXYE54n1++wb0u9V/abW3l9uQnxX8Z5Xd18xyKIMTUAyQ0k1e8pz6LUrw==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      esrecurse: 4.3.0
+      estraverse: 5.3.0
+    dev: false
+
   /esprima/4.0.1:
     resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: false
+
+  /esrecurse/4.3.0:
+    resolution: {integrity: sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==}
+    engines: {node: '>=4.0'}
+    dependencies:
+      estraverse: 5.3.0
     dev: false
 
   /estraverse/5.3.0:

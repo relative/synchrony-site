@@ -1,3 +1,4 @@
+import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill'
 import htmlPlugin from '@chialab/esbuild-plugin-html'
 import { sassPlugin } from 'esbuild-sass-plugin'
 import { join, dirname } from 'path'
@@ -34,7 +35,7 @@ const buildOptions = {
   sourcemap: false,
   minify: true,
 
-  plugins: [sassPlugin(), htmlPlugin()],
+  plugins: [NodeModulesPolyfillPlugin(), sassPlugin(), htmlPlugin()],
 
   loader: {
     '.ttf': 'file',

@@ -20,7 +20,7 @@ function humanize(milliseconds) {
   return `${minutes}m ${seconds}s ${milliseconds}ms`
 }
 const darkMq = window.matchMedia('(prefers-color-scheme: dark)')
-darkMq.addEventListener('change', (e) => changeTheme(e))
+darkMq.addEventListener('change', e => changeTheme(e))
 changeTheme(darkMq)
 
 const sync = new Deobfuscator()
@@ -45,7 +45,7 @@ async function deobfuscate(source) {
   }
 }
 
-btnDeobfuscate.addEventListener('click', async (e) => {
+btnDeobfuscate.addEventListener('click', async e => {
   e.preventDefault()
 
   btnDeobfuscate.setAttribute('disabled', '')

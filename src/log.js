@@ -42,7 +42,7 @@ const Log = {
 
 const fns = ['debug', 'log', 'info', 'warn', 'error']
 
-fns.forEach((key) => {
+fns.forEach(key => {
   const orig = console[key]
   console[key] = function (...args) {
     orig(...args), Log.log(key, ...args)

@@ -9,7 +9,7 @@ const Log = {
 
     success: '/assets/success.png',
   },
-  term: document.querySelector('.term'),
+  term: (globalThis || window).document && document.querySelector('.term'),
   serialize(a) {
     try {
       if (typeof a === 'string') return a

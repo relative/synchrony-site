@@ -5,7 +5,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.js",
+    "clean": "rimraf dist",
+    "build": "node scripts/build.js && copyfiles -f src/icons/*.png dist/assets/",
     "watch": "node scripts/build.js --watch"
   },
   "repository": {
@@ -20,12 +21,16 @@
   "homepage": "https://deobfuscate.relative.im",
   "devDependencies": {
     "@chialab/esbuild-plugin-html": "0.14.19",
-    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@esbuild-plugins/node-modules-polyfill": "0.1.4",
+    "copyfiles": "2.4.1",
     "esbuild": "0.14.21",
-    "esbuild-sass-plugin": "2.2.3"
+    "esbuild-sass-plugin": "2.2.3",
+    "rimraf": "3.0.2"
   },
   "dependencies": {
+    "dayjs": "1.11.6",
     "deobfuscator": "2.2.0",
+    "file-saver": "2.0.5",
     "monaco-editor": "0.32.1"
   }
 }

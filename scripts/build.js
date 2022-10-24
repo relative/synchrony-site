@@ -22,6 +22,7 @@ if (watch) console.log('watch mode')
 const buildOptions = {
   entryPoints: [
     join(SRC_PATH, 'index.html'),
+    join(SRC_PATH, 'deobworker.js'),
     join(MONACO_PATH, 'editor', 'editor.worker.js'),
     join(MONACO_PATH, 'language', 'typescript', 'ts.worker.js'),
   ],
@@ -55,6 +56,6 @@ let p = watch
     )
   : esbuild.build(buildOptions)
 
-p.catch((_err) => {
+p.catch(_err => {
   process.exit(1)
 })

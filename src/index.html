@@ -19,8 +19,12 @@
       content="JavaScript cleaner and deobfuscator that works in one click. Easily deobfuscate your JavaScript files with no effort."
     />
 
+    <link rel="preload" href="/deobworker.js" />
+    <link rel="preload" href="/editor.worker.js" />
+    <link rel="preload" href="/ts.worker.js" />
+
     <link rel="canonical" href="https://deobfuscate.relative.im/" />
-    <link href="index.scss" rel="stylesheet" />
+    <link href="/style/index.scss" rel="stylesheet" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -62,6 +66,7 @@
         </a>
         <div class="buttons">
           <button class="button" id="btn-deobfuscate">Deobfuscate</button>
+          <button class="button" id="btn-save">Save</button>
         </div>
       </div>
       <div class="col">
